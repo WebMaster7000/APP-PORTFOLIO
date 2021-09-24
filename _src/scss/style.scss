@@ -1,0 +1,14 @@
+//settings
+@import "./settings/reset";
+@import "./settings/variables";
+@import "./settings/mixins";
+@import "./settings/fonts";
+@import "./settings/base";
+
+//components
+@import "./header";
+@import "./hero";
+@import "./footer";
+
+//end
+//@import "./&media";

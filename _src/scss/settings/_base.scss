@@ -1,0 +1,29 @@
+/*------------------ Base ------------------------*/
+
+body {
+	font-family:$fontFamily;        
+	font-size:14px;                 
+	color:#000;
+	background-color: #ffffff;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns:1fr;     
+	overflow: hidden;
+	border:2px solid grey;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 10px;
+	min-width: $minWidthContainer+px;
+	max-width: $maxWidthContainer+px;         
+	border:2px solid green;
+}
+
+
+
+
+
+
